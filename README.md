@@ -8,7 +8,7 @@
 🚀 Welcome to submit issues to include your **LLM4SE benchmarks**!  
 [![Submit Issue](https://img.shields.io/badge/Submit-Issue-blue?logo=github)](../../issues)
 
-If you find our survey useful for your research, please cite the following paper:
+🔥 If you find our survey useful for your research, please cite the following paper:
 
 ```bibtex
 @article{LLM4SEBenchmark,

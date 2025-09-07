@@ -1184,7 +1184,7 @@
   </tr>
 
   <tr>
-    <td rowspan="102"><b>Test Generation</b></td>
+    <td rowspan="14"><b>Test Generation</b></td>
     <td>Evosuite SF110</td>
     <td>2011</td>
     <td>Line coverage, branch coverage, and test correctness</td>
@@ -1285,7 +1285,7 @@
 
   <!-- Assertion Generation -->
   <tr>
-    <td rowspan="13"><b>Assertion Generation</b></td>
+    <td rowspan="1"><b>Assertion Generation</b></td>
     <td>ATLAS</td>
     <td>2020</td>
     <td>Exact match, edit distance, and longest common subsequence</td>
@@ -1295,7 +1295,7 @@
 
   <!-- GUI Test -->
   <tr>
-    <td rowspan="3"><b>GUI Test</b></td>
+    <td rowspan="2"><b>GUI Test</b></td>
     <td>Themis</td>
     <td>2021</td>
     <td>The number of detected bugs, and activity coverage</td>
@@ -1312,7 +1312,7 @@
 
   <!-- Testing Automation -->
   <tr>
-    <td rowspan="3"><b>Testing Automation</b></td>
+    <td rowspan="4"><b>Testing Automation</b></td>
     <td>LAVA-M</td>
     <td>2016</td>
     <td>Coverage, Unique bug</td>
@@ -1343,7 +1343,7 @@
 
   <!-- Testing Prediction -->
   <tr>
-    <td rowspan="3"><b>Testing Prediction</b></td>
+    <td rowspan="2"><b>Testing Prediction</b></td>
     <td>IDoFT</td>
     <td>2019</td>
     <td>Precision, Recall, F1-Score</td>
@@ -1360,7 +1360,7 @@
 
   <!-- Testing Repair -->
   <tr>
-    <td rowspan="3"><b>Testing Repair</b></td>
+    <td rowspan="2"><b>Testing Repair</b></td>
     <td>TARBENCH</td>
     <td>2025</td>
     <td>CodeBLEU, BLEU, exact match, repair accuracy</td>
@@ -1388,7 +1388,7 @@
   </tr>
 
   <tr>
-    <td rowspan="102"><b>Log Statement Generation</b></td>
+    <td rowspan="4"><b>Log Statement Generation</b></td>
     <td>LANCE</td>
     <td>2022</td>
     <td>Correct prediction ratio</td>
@@ -1419,7 +1419,7 @@
 
   <!-- Log Parsing -->
   <tr>
-    <td rowspan="3"><b>Log Parsing</b></td>
+    <td rowspan="2"><b>Log Parsing</b></td>
     <td>Loghub</td>
     <td>2023</td>
     <td>Accuracy</td>
@@ -1447,7 +1447,7 @@
   </tr>
 
   <tr>
-    <td rowspan="102"><b>Code Review</b></td>
+    <td rowspan="7"><b>Code Review</b></td>
     <td>CodeReview</td>
     <td>2022</td>
     <td>Exact Match</td>
@@ -1499,7 +1499,7 @@
 
   <!-- Clone Detection -->
   <tr>
-    <td rowspan="3"><b>Clone Detection</b></td>
+    <td rowspan="5"><b>Clone Detection</b></td>
     <td>BigCloneBench</td>
     <td>2014</td>
     <td>Precision, Recall, F1</td>
@@ -1537,7 +1537,7 @@
 
   <!-- Refactoring -->
   <tr>
-    <td rowspan="3"><b>Refactoring</b></td>
+    <td rowspan="1"><b>Refactoring</b></td>
     <td>JavaRef</td>
     <td>2023</td>
     <td>Accuracy, Exact Match, Edit Distance, Character Error Rate</td>
@@ -1558,7 +1558,7 @@
   </tr>
 
   <tr>
-    <td rowspan="102"><b>Defect Prediction</b></td>
+    <td rowspan="6"><b>Defect Prediction</b></td>
     <td>Bugs.jar</td>
     <td>2018</td>
     <td>Precision, Recall, F1, Accuracy, MCC</td>
@@ -1603,7 +1603,7 @@
 
   <!-- Bug Localization -->
   <tr>
-    <td rowspan="3"><b>Bug Localization</b></td>
+    <td rowspan="20"><b>Bug Localization</b></td>
     <td>Ye et al.</td>
     <td>2014</td>
     <td>Accuracy, MRR, MAP</td>
@@ -1746,7 +1746,7 @@
 
   <!-- Repair -->
   <tr>
-    <td rowspan="3"><b>Repair</b></td>
+    <td rowspan="12"><b>Repair</b></td>
     <td>Defects4J</td>
     <td>2014</td>
     <td># fixed bugs</td>
@@ -1833,7 +1833,7 @@
 
   <!-- Vulnerability Detection -->
   <tr>
-    <td rowspan="3"><b>Vulnerability Detection</b></td>
+    <td rowspan="61"><b>Vulnerability Detection</b></td>
     <td>Choi et al.</td>
     <td>2017</td>
     <td>Accuracy, F1, AUC</td>
@@ -2261,3 +2261,5 @@
     <td>[<a href="https://github.com/Chaomeng-Lu/ICVul">Link</a>]</td>
   </tr>
 </table>
+
+

@@ -1172,6 +1172,1092 @@
   </tr>
 </table>
 
+**Software Testing**
+<table>
+  <tr>
+    <th>Task</th>
+    <th>Benchmarks</th>
+    <th>Year</th>
+    <th>Evaluation Metrics</th>
+    <th>Paper</th>
+    <th>Link</th>
+  </tr>
 
+  <tr>
+    <td rowspan="102"><b>Test Generation</b></td>
+    <td>Evosuite SF110</td>
+    <td>2011</td>
+    <td>Line coverage, branch coverage, and test correctness</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://www.evosuite.org/experimental-data/sf100/">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Defects4J</td>
+    <td>2014</td>
+    <td>The number of test case is executable, CodeBLEU, line coverage, branch coverage, and the number of detected bugs</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/rjust/defects4j">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>DynaMOSA</td>
+    <td>2018</td>
+    <td>Line coverage, branch coverage, number of detected bugs</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://www.evosuite.org/experimental-data/evolutionary-algorithm-study/">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>BugsInPy</td>
+    <td>2020</td>
+    <td>Line coverage, branch coverage, and number of detected bugs </td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/soarsmu/BugsInPy">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>HumanEval</td>
+    <td>2021</td>
+    <td>Mutation score, Pass@K, the number of killed mutants, line coverage, and branch coverage</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/openai/human-eval">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>MBPP</td>
+    <td>2021</td>
+    <td>Pass@K</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://huggingface.co/datasets/google-research-datasets/mbpp">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>APPS</td>
+    <td>2021</td>
+    <td>Pass@K</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/hendrycks/apps">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>CodeContests</td>
+    <td>2022</td>
+    <td>Pass@K</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/google-deepmind/code_contests">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>HumanEval-X</td>
+    <td>2023</td>
+    <td>Pass@K</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/THUDM/CodeGeeX">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>CoderUJB</td>
+    <td>2024</td>
+    <td>Syntax correctness rate, compile passing rate, line coverage</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/WisdomShell/ujb">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>SWT-Bench</td>
+    <td>2024</td>
+    <td>Success rate and change coverage </td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/logic-star-ai/SWT-Bench">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>TestBench</td>
+    <td>2024</td>
+    <td>Syntax/compilation/execution correctness rate, coverage/defect detection rate</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/iSEngLab/TestBench">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>TestEval</td>
+    <td>2025</td>
+    <td>overall/line/branch/path coverage</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/iSEngLab/TestBench">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>ProjectTest</td>
+    <td>2025</td>
+    <td>Compilation/correctness/coverage rate</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/YiboWANG214/ProjectTest">Link</a>]</td>
+  </tr>
 
+  <!-- Assertion Generation -->
+  <tr>
+    <td rowspan="13"><b>Assertion Generation</b></td>
+    <td>ATLAS</td>
+    <td>2020</td>
+    <td>Exact match, edit distance, and longest common subsequence</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://sites.google.com/view/atlas-nmt/home">Link</a>]</td>
+  </tr>
 
+  <!-- GUI Test -->
+  <tr>
+    <td rowspan="3"><b>GUI Test</b></td>
+    <td>Themis</td>
+    <td>2021</td>
+    <td>The number of detected bugs, and activity coverage</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/the-themis-benchmarks/home">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>QTypist</td>
+    <td>2021</td>
+    <td>Passing rate, coverage metrics, activity number, and page number</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/franklinbill/QTypist">Link</a>]</td>
+  </tr>
+
+  <!-- Testing Automation -->
+  <tr>
+    <td rowspan="3"><b>Testing Automation</b></td>
+    <td>LAVA-M</td>
+    <td>2016</td>
+    <td>Coverage, Unique bug</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/panda-re/lava">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Unibench</td>
+    <td>2021</td>
+    <td>Quality of bugs, stability of finding bugs, speed of finding bugs, and overhead</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/unifuzz/unibench">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>FuzzBench</td>
+    <td>2021</td>
+    <td>Coverage, Unique bug</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://google.github.io/fuzzbench">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>FuzzGPT</td>
+    <td>2024</td>
+    <td>Code coverage, API coverage, number of unique crashes</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/ise-uiuc/FuzzGPT">Link</a>]</td>
+  </tr>
+
+  <!-- Testing Prediction -->
+  <tr>
+    <td rowspan="3"><b>Testing Prediction</b></td>
+    <td>IDoFT</td>
+    <td>2019</td>
+    <td>Precision, Recall, F1-Score</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/TestingResearchIllinois/idoft">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>FlakeFlagger</td>
+    <td>2021</td>
+    <td>Precision, Recall, F1-Score</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/AlshammariA/FlakeFlagger">Link</a>]</td>
+  </tr>
+
+  <!-- Testing Repair -->
+  <tr>
+    <td rowspan="3"><b>Testing Repair</b></td>
+    <td>TARBENCH</td>
+    <td>2025</td>
+    <td>CodeBLEU, BLEU, exact match, repair accuracy</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://figshare.com/articles/dataset/_b_TaRBench_A_Comprehensive_Benchmark_for_Automated_Test_Case_Repair_b_/25008893">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Syn-Bench</td>
+    <td>2025</td>
+    <td>Syntactic/semantic correctness, code coverage</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://sites.google.com/view/utfix">Link</a>]</td>
+  </tr>
+</table>
+
+**AIOps**
+<table>
+  <tr>
+    <th>Task</th>
+    <th>Benchmarks</th>
+    <th>Year</th>
+    <th>Evaluation Metrics</th>
+    <th>Paper</th>
+    <th>Link</th>
+  </tr>
+
+  <tr>
+    <td rowspan="102"><b>Log Statement Generation</b></td>
+    <td>LANCE</td>
+    <td>2022</td>
+    <td>Correct prediction ratio</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/antonio-mastropaolo/LANCE">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>LogBench</td>
+    <td>2024</td>
+    <td>Accuracy, Precision, Recall</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/LoggingResearch/LoggingEmpirical">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>SCLoger</td>
+    <td>2024</td>
+    <td>Accuracy, Precision, Recall, F1, BLEU, and ROUGE</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/YichenLi00/SCLogger">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>AL-Bench</td>
+    <td>2025</td>
+    <td>Position Accuracy, Level Accuracy, Average Level Distance, Message Accuracy, Dynamic Expression Accuracy, Static Text Similarity</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/shuaijiumei/logging-benchmark">Link</a>]</td>
+  </tr>
+
+  <!-- Log Parsing -->
+  <tr>
+    <td rowspan="3"><b>Log Parsing</b></td>
+    <td>Loghub</td>
+    <td>2023</td>
+    <td>Accuracy</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/logpai/loghub">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Loghub-2.0</td>
+    <td>2024</td>
+    <td>Accuracy, F1-score</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://zenodo.org/records/8275861">Link</a>]</td>
+  </tr>
+</table>
+
+**Maintenance**
+<table>
+  <tr>
+    <th>Task</th>
+    <th>Benchmarks</th>
+    <th>Year</th>
+    <th>Evaluation Metrics</th>
+    <th>Paper</th>
+    <th>Link</th>
+  </tr>
+
+  <tr>
+    <td rowspan="102"><b>Code Review</b></td>
+    <td>CodeReview</td>
+    <td>2022</td>
+    <td>Exact Match</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://zenodo.org/records/5387856#.YTDrPZ4zZyo">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>CodeReviewer</td>
+    <td>2022</td>
+    <td>Exact Match and BLEU</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://zenodo.org/records/6900648">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>AUGER</td>
+    <td>2023</td>
+    <td>ROUGE, Perfect Prediction Rate</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://gitlab.com/ai-for-se-public-data/auger-fse-2022">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Review-Explaining</td>
+    <td>2023</td>
+    <td>Explanation type correctness,the semantic meaning correctness</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://figshare.com/s/135201b8f87ab705448b">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Code-Review-Assist</td>
+    <td>2023</td>
+    <td>Precision, Recall, and F1 score</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://zenodo.org/records/7533156">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>CodeReview-New</td>
+    <td>2024</td>
+    <td>Exact Match Trim, Exact Match, BLEU</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://sites.google.com/view/chatgptcodereview">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>ManualReviewComment</td>
+    <td>2025</td>
+    <td>Precision, Recall, F1</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://zenodo.org/records/13150598">Link</a>]</td>
+  </tr>
+
+  <!-- Clone Detection -->
+  <tr>
+    <td rowspan="3"><b>Clone Detection</b></td>
+    <td>BigCloneBench</td>
+    <td>2014</td>
+    <td>Precision, Recall, F1</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/clonebench/BigCloneBench">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>POJ-104</td>
+    <td>2016</td>
+    <td>Precision, Recall, MAP</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://drive.google.com/file/d/0B2i-vWnOu7MxVlJwQXN6eVNONUU/view?resourcekey=0-Po3kiAifLfCCYnanCBDMHw">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Company-C/C++</td>
+    <td>2023</td>
+    <td>MRR, Precision, Recall </td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/SFI-Lero/SSCD/tree/main">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>GPTCloneBench</td>
+    <td>2023</td>
+    <td>Precision, Recall</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/srlabUsask/GPTCloneBench">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Curated CodeNet</td>
+    <td>2023</td>
+    <td>Precision, Recall</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/LLM4CodeClone/LLM4CodeClone">Link</a>]</td>
+  </tr>
+
+  <!-- Refactoring -->
+  <tr>
+    <td rowspan="3"><b>Refactoring</b></td>
+    <td>JavaRef</td>
+    <td>2023</td>
+    <td>Accuracy, Exact Match, Edit Distance, Character Error Rate</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://drive.google.com/drive/folders/1aw2yiUTXwB3gJrDcFWeDpYvGgJNYjt51">Link</a>]</td>
+  </tr>
+</table>
+
+**Quality Management**
+<table>
+  <tr>
+    <th>Task</th>
+    <th>Benchmarks</th>
+    <th>Year</th>
+    <th>Evaluation Metrics</th>
+    <th>Paper</th>
+    <th>Link</th>
+  </tr>
+
+  <tr>
+    <td rowspan="102"><b>Defect Prediction</b></td>
+    <td>Bugs.jar</td>
+    <td>2018</td>
+    <td>Precision, Recall, F1, Accuracy, MCC</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/bugs-dot-jar/bugs-dot-jar">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Bears</td>
+    <td>2019</td>
+    <td>Precision, Recall, F1, Accuracy, MCC</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/bears-bugs">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Zeng et al.</td>
+    <td>2021</td>
+    <td>Accuracy, Recall, False Discovery Rate, AUC-ROC, AUC-PR</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/ZZR0/ISSTA21-JIT-DP">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Review-Explaining</td>
+    <td>2023</td>
+    <td>Explanation type correctness,the semantic meaning correctness</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="#">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>JIT-defects4j</td>
+    <td>2022</td>
+    <td>F1-score, AUC, Recall@20 Effort, Effort@20 Recall, P𝑜𝑝𝑡 , Top-N Accuracy</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/jacknichao/JIT-Fine">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Opu et al.</td>
+    <td>2025</td>
+    <td>Precision, Recall, F1, Accuracy, MCC</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="#">Link</a>]</td>
+  </tr>
+
+  <!-- Bug Localization -->
+  <tr>
+    <td rowspan="3"><b>Bug Localization</b></td>
+    <td>Ye et al.</td>
+    <td>2014</td>
+    <td>Accuracy, MRR, MAP</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="http://dx.doi.org/10.6084/m9.figshare.951967">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Defects4J</td>
+    <td>2014</td>
+    <td>ACC@K, FPR, Top@N</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/rjust/defects4j">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Bench4BL</td>
+    <td>2018</td>
+    <td>MRR, MAP, HIT@K</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/exatoa/Bench4BL">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Devign</td>
+    <td>2019</td>
+    <td>Top@N</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/epicosy/devign">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>BugsInPy</td>
+    <td>2020</td>
+    <td>ACC@K,Top@N</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/soarsmu/BugsInPy">Link</a>]</td>
+  </tr>
+   <tr>
+    <td>Zhu et al.</td>
+    <td>2021</td>
+    <td>Accuracy</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/pkuzqh/Recoder">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>CodeReviewer</td>
+    <td>2022</td>
+    <td>Accuracy</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://zenodo.org/records/6900648">Link</a>]</td>
+  </tr>
+   <tr>
+    <td>Ciborowska et al.</td>
+    <td>2022</td>
+    <td>Precision@K, Recall@K, F1-score@K, MRR, MAP </td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://anonymous.4open.science/r/fbl-bert-700C/README.md">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Ma et al.</td>
+    <td>2023</td>
+    <td>MAP, MRR, Top@N</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://lamda.nju.edu.cn/mayf/sgAttention-Code.zip">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>RTLLM</td>
+    <td>2024</td>
+    <td>Hit Rate, pass@k</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/hkust-zhiyao/RTLLM">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>BeetleBox</td>
+    <td>2024</td>
+    <td>Accuracy, MRR, MAP </td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://zenodo.org/records/15122980">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>SWE-Bench</td>
+    <td>2024</td>
+    <td>Accuracy, MRR, MAP, TopN, Precision</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://www.swebench.com">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Chandramohan et al.</td>
+    <td>2024</td>
+    <td>Accuracy, MRR, MAP</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="#">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Stracquadanio et al.</td>
+    <td>2024</td>
+    <td>Top-1 bug coverage</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="#">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Manke et al.</td>
+    <td>2024</td>
+    <td>TP, FP</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/Ruchira-1/Theia?tab=readme-ov-file">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>D58</td>
+    <td>2024</td>
+    <td>Recall, MRR, CandiAvg</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="#">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Saha et al.</td>
+    <td>2024</td>
+    <td>MRR, MAP, HIT@K</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://zenodo.org/records/12692994">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Widyasari et al.</td>
+    <td>2024</td>
+    <td>Top-K</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://figshare.com/s/bce02cb607a6c30043ad?file=47354473">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>LINUXFLBENCH</td>
+    <td>2025</td>
+    <td>Recall@k, MRR</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/FudanSELab/LinuxFLBench">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>ACPR</td>
+    <td>2025</td>
+    <td>Accuracy</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/zhenlongDai/AdaPatcher">Link</a>]</td>
+  </tr>
+
+  <!-- Repair -->
+  <tr>
+    <td rowspan="3"><b>Repair</b></td>
+    <td>Defects4J</td>
+    <td>2014</td>
+    <td># fixed bugs</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/rjust/defects4j">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>QuixBugs</td>
+    <td>2017</td>
+    <td># fixed bugs</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/jkoppel/QuixBugs">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>LMDefects</td>
+    <td>2023</td>
+    <td># fixed bugs</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/zhiyufan/apr4codex">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>InferredBugs</td>
+    <td>2023</td>
+    <td>Ratio of fixed bugs</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/microsoft/InferredBugs">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>ARHE</td>
+    <td>2023</td>
+    <td>Accuracy</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Leetcode-debug</td>
+    <td>2023</td>
+    <td>Acceptance rate</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>API-Misuse-Repair</td>
+    <td>2017</td>
+    <td>Eaxct Match, BLEU, CodeBLEU</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://anonymous.4open.science/r/TOSEM-API-Misuse">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>DebugBench</td>
+    <td>2024</td>
+    <td>Pass Rate</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/thunlp/DebugBench">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>SWE-Bench</td>
+    <td>2024</td>
+    <td>Resolution rate</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://www.swebench.com">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>SWE-bench Multimodal</td>
+    <td>2024</td>
+    <td>Resolution rate</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://www.swebench.com/multimodal">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>SWE-Lancer</td>
+    <td>2025</td>
+    <td>Resolution rate</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/openai/SWELancer-Benchmark">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Multi-SWE-bench</td>
+    <td>2025</td>
+    <td>Resolution rate</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/multi-swe-bench/multi-swe-bench/tree/main">Link</a>]</td>
+  </tr>
+
+  <!-- Vulnerability Detection -->
+  <tr>
+    <td rowspan="3"><b>Vulnerability Detection</b></td>
+    <td>Choi et al.</td>
+    <td>2017</td>
+    <td>Accuracy, F1, AUC</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/mjc92/buffer_overrun_memory_networks">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Lin et al.</td>
+    <td>2017</td>
+    <td>Top-k Recall</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="#">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>DGBBench</td>
+    <td>2017</td>
+    <td>Precision, Recall, F1, Accuracy </td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://dbgbench.github.io">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Juliet</td>
+    <td>2018</td>
+    <td>Precision, Recall, MCC </td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://samate.nist.gov/SARD/test-suites/112">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>VulDeePecker</td>
+    <td>2018</td>
+    <td>FN, FP, TN, TP, Precision, Recall, F1, AUC, MCC</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/CGCL-codes/VulDeePecker">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Draper</td>
+    <td>2018</td>
+    <td>FN, FP, TN, TP, Precision, Recall, F1, AUC, MCC </td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://osf.io/d45bw/">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Devign</td>
+    <td>2019</td>
+    <td>Accuracy, Precision, Recall, F1, FPR, AUC, Precision@K,MCC </td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/epicosy/devign">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Ponta et al.</td>
+    <td>2019</td>
+    <td>AUC, F1</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/SAP/project-kb">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>BigVul</td>
+    <td>2020</td>
+    <td>Accuracy, Precision, Recall, F1, FPR, AUC, Precision@K, MCC</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/ZeoVan/MSR_20_Code_vulnerability_CSV_Dataset">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>ReVeal</td>
+    <td>2020</td>
+    <td>Accuracy, Precision, Recall, F1, FPR, AUC, Precision@K </td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/VulDetProject/ReVeal">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>SmartBugs</td>
+    <td>2020</td>
+    <td>Precision, Recall, F1, Top-N Accuracy, MAR, MFR</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://smartbugs.github.io">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Great</td>
+    <td>2020</td>
+    <td>Precision, Recall, Accuracy </td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://zenodo.org/records/3954944">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Magma</td>
+    <td>2020</td>
+    <td>ROC-AUC</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://hexhive.epfl.ch/magma/">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>SolidiFI</td>
+    <td>2020</td>
+    <td>FN, FP</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/DependableSystemsLab/SolidiFI-benchmark">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>SySeVR</td>
+    <td>2021</td>
+    <td>FPR, FNR, Precision, Recall, F1</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/SySeVR/SySeVR">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>D2A</td>
+    <td>2021</td>
+    <td>Precision, Recall, MCC</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/ibm/D2A">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>PatchDB</td>
+    <td>2021</td>
+    <td>Precision, Recall, F1</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/SunLab-GMU/PatchDB">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>CVEFixes</td>
+    <td>2021</td>
+    <td>Accuracy, Precision, Recall, F1, FPR</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/secureIT-project/CVEfixes">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>CrossVul</td>
+    <td>2021</td>
+    <td>Accuracy, Precision, Recall, F1, FPR</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://doi.org/10.5281/zenodo.4734050">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>VCmatch</td>
+    <td>2022</td>
+    <td>AUC, F1</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://figshare.com/s/0f3ed11f9348e2f3a9f8">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>VUDENC</td>
+    <td>2022</td>
+    <td>Precision, Recall, F1, Accuracy</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/LauraWartschinski/VulnerabilityDetection?tab=readme-ov-file">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>SARD</td>
+    <td>2023</td>
+    <td>Accuracy, Precision,Recall, F1</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://samate.nist.gov/SARD">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>DiverseVul</td>
+    <td>2023</td>
+    <td>Accuracy, Precision, Recall, F1, FPR</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/wagner-group/diversevul">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Web3Bugs</td>
+    <td>2023</td>
+    <td>TP,TN, FP, FN</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/ZhangZhuoSJTU/Web3Bugs">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>DeFi Hacks</td>
+    <td>2023</td>
+    <td>TP,TN, FP, FN</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://wooded-meter-1d8.notion.site/0e85e02c5ed34df3855ea9f3ca40f53b?v=22e5e2c506ef4caeb40b4f78e23517ee">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>VulBench</td>
+    <td>2023</td>
+    <td>Precision, Recall, F1</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/Hustcw/VulBench">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>OWASP</td>
+    <td>2023</td>
+    <td>Accuracy</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://owasp.org/www-project-benchmark">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>TreeVul</td>
+    <td>2023</td>
+    <td>F1, Macro-F1, MCC</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://figshare.com/articles/online_resource/TreeVul_-_Replication_Package/19727050">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>FormAI</td>
+    <td>2023</td>
+    <td>Precision, Recall, F1, Accuracy</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/FormAI-Dataset">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Hu et al.</td>
+    <td>2023</td>
+    <td>Hit #</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/git-disl/GPTLens">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>FalconVulnDB</td>
+    <td>2024</td>
+    <td>Precision, Recall, F1, Accuracy</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="#">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>FormAI-v2</td>
+    <td>2024</td>
+    <td>Average Property Violations Per File/Line</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/FormAI-Dataset">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>MoreFixes</td>
+    <td>2024</td>
+    <td>Accuracy, Precision, Recall, F1</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/JafarAkhondali/Morefixes">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>VulEval</td>
+    <td>2024</td>
+    <td>Precision, Recall, F1, MCC, Precision@k, Recall@k </td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="#">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>InterPVD</td>
+    <td>2024</td>
+    <td>FPR, FNR, Accuracy, Precision, F1</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/CGCLcodes/VulTrigger">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>ReposVul</td>
+    <td>2024</td>
+    <td>Accuracy</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/Eshe0922/ReposVul">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>MegaVul</td>
+    <td>2024</td>
+    <td>Accuracy, Precision, Recall, F1</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/Icyrockton/MegaVul">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>SecLLMHolmes</td>
+    <td>2024</td>
+    <td>Response Rate, Accuracy, Correct Reasoning Rate</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/ai4cloudops/SecLLMHolmes">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>VulDetectBench</td>
+    <td>2024</td>
+    <td>F1, Accuracy</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/Sweetaroo/VulDetectBench">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>SC-LOC</td>
+    <td>2024</td>
+    <td>Precision, Recall, Accuracy, F1-Score</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="#">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Ma et al.</td>
+    <td>2024</td>
+    <td>Precision, Recall, Accuracy, F1-Score</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://sites.google.com/view/iaudittool/home">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>FELLMVP</td>
+    <td>2024</td>
+    <td>Precision, Recall, Accuracy, F1-Score</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://drive.google.com/drive/folders/1uSXaY7vOvcwQIwXs5JwD9C2hxK9bFMsZ">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Yıldırım et al.</td>
+    <td>2024</td>
+    <td>Accuracy</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="#">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Vulcorpus</td>
+    <td>2024</td>
+    <td>Accuracy, Improvement Suggestion</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="#">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Fang et al.</td>
+    <td>2024</td>
+    <td>Not vulnerability detection </td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="#">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>SLFHunter</td>
+    <td>2024</td>
+    <td>TP,TN, FP, FN, F1-score</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="#">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Guo et al.</td>
+    <td>2024</td>
+    <td>Precision, Recall, F1-Score</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://zenodo.org/records/10975439">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>VulnPatchPairs</td>
+    <td>2024</td>
+    <td>Precision, Recall, F1, Accuracy, FPR, FNR</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/niklasrisse/VPP">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Real-Vul</td>
+    <td>2024</td>
+    <td>Precision, Recall, F1, Accuracy, AUC</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://zenodo.org/records/12707476">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>PairVul</td>
+    <td>2024</td>
+    <td>Accuracy, Pairwise Accuracy, F1-score, MCC </td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="#">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>VulSmart</td>
+    <td>2024</td>
+    <td>Precision, Recall, F1, Accuracy</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="#">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>KernJC</td>
+    <td>2024</td>
+    <td>TP, TN, FP, FN, Precision, Recall, F1, Accuracy</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="#">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>LLM4Vuln</td>
+    <td>2025</td>
+    <td>TP,TN, FP, FN, F1-score</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://anonymous.4open.science/r/LLM4Vuln/README.md">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>VULZOO</td>
+    <td>2025</td>
+    <td>Precision, Recall, F1, Accuracy</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/NUS-Curiosity/VulZoo">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>CWE-Bench-Java</td>
+    <td>2025</td>
+    <td>#Detected, Avg. False Discovery Rate, Avg. F1, Precision, Recall</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/iris-sast/iris">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>CASTLE</td>
+    <td>2025</td>
+    <td>CASTLE Score, Combination Score, Precision, Recall, Accuracy</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/CASTLE-Benchmark">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>SecVulEval</td>
+    <td>2025</td>
+    <td>human-evaluated scoring rubric</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://huggingface.co/datasets/arag0rn/SecVulEval">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>JITVUL</td>
+    <td>2025</td>
+    <td>Precision, Recall, F1, Accuracy</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://anonymous.4open.science/r/JitVul-C6C7/">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>Li et al.</td>
+    <td>2025</td>
+    <td>Precision, Recall, F1, Accuracy</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/soarsmu/SVD-Bench">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>BinPool</td>
+    <td>2025</td>
+    <td>Precision, Recall, F1, Accuracy</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://docs.google.com/spreadsheets/d/1qztIwB8xJ10H-2HLX15vI29Ze7yFDOrv7kDQ4JUi1g8/edit?gid=1679944928#gid=1679944928">Link</a>]</td>
+  </tr>
+  <tr>
+    <td>ICVul</td>
+    <td>2025</td>
+    <td>Precision, Recall, F1, Accuracy</td>
+    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://github.com/Chaomeng-Lu/ICVul">Link</a>]</td>
+  </tr>
+</table>

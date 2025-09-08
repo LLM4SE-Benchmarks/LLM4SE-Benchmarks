@@ -237,112 +237,112 @@
     <td>Lin et al.</td>
     <td>2013</td>
     <td>BLEU, CodeBLEU</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://dl.acm.org/doi/pdf/10.1145/3697012">Paper</a>]</td>
     <td>[Link]</td>
   </tr>
   <tr>
     <td>Leetcode</td>
     <td>2015</td>
     <td>Passing Test Cases, Runtime, Memory Usage</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[Paper]</td>
     <td>[<a href="https://leetcode.com">Link</a>]</td>
   </tr>
   <tr>
     <td>ExampleCheck</td>
     <td>2018</td>
     <td>misuse rate</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://tianyi-zhang.github.io/files/icse2018-examplecheck.pdf">Paper</a>]</td>
     <td>[Link]</td>
   </tr>
   <tr>
     <td>CONCODE</td>
     <td>2018</td>
     <td>BLEU</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/1808.09588">Paper</a>]</td>
     <td>[<a href="https://github.com/sriniiyer/concode">Link</a>]</td>
   </tr>
   <tr>
     <td>CoNaLa</td>
     <td>2018</td>
     <td>precision, recall, TPR</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/1805.08949">Paper</a>]</td>
     <td>[<a href="http://conala-corpus.github.io/">Link</a>]</td>
   </tr>
   <tr>
     <td>NL2Bash</td>
     <td>2018</td>
     <td>manual, BLEU</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/1802.08979">Paper</a>]</td>
     <td>[<a href="https://github.com/TellinaTool/nl2bash/tree/master/data">Link</a>]</td>
   </tr>
   <tr>
     <td>Spider</td>
     <td>2018</td>
     <td>Component Matching, Execution Accuracy</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/1809.08887">Paper</a>]</td>
     <td>[<a href="https://yale-lily.github.io/spider">Link</a>]</td>
   </tr>
   <tr>
     <td>CodeSearchNet</td>
     <td>2020</td>
     <td>NDCG, MRR</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="http://arxiv.org/pdf/1909.09436">Paper</a>]</td>
     <td>[<a href="https://github.com/github/CodeSearchNet">Link</a>]</td>
   </tr>
   <tr>
     <td>APPS</td>
     <td>2021</td>
     <td>Test Case Average, Strict Accuracy</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/2105.09938">Paper</a>]</td>
     <td>[<a href="https://github.com/hendrycks/apps">Link</a>]</td>
   </tr>
   <tr>
     <td>MBPP</td>
     <td>2021</td>
     <td>% solved</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/2108.07732">Paper</a>]</td>
     <td>[<a href="https://huggingface.co/datasets/google-research-datasets/mbpp">Link</a>]</td>
   </tr>
   <tr>
     <td>CodeXGLUE</td>
     <td>2021</td>
     <td>EM, ES</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/2102.04664">Paper</a>]</td>
     <td>[<a href="https://github.com/microsoft/CodeXGLUE">Link</a>]</td>
   </tr>
   <tr>
     <td>HumanEval</td>
     <td>2021</td>
     <td>Pass@k</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/2107.03374">Paper</a>]</td>
     <td>[<a href="https://github.com/openai/human-eval">Link</a>]</td>
   </tr>
   <tr>
     <td>miniF2F</td>
     <td>2021</td>
     <td>Pass@k</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/2109.00110">Paper</a>]</td>
     <td>[<a href="https://github.com/openai/miniF2F/tree/v1">Link</a>]</td>
   </tr>
   <tr>
     <td>Lyra</td>
     <td>2021</td>
     <td>BLEU, AST match</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/2108.12144">Paper</a>]</td>
     <td>[<a href="https://github.com/LIANGQINGYUAN/Lyra">Link</a>]</td>
   </tr>
   <tr>
     <td>FC2Code</td>
     <td>2022</td>
     <td>BLEU</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://aclanthology.org/2022.findings-emnlp.449.pdf">Paper</a>]</td>
     <td>[<a href="https://github.com/LiuZeJie97/Code-Generation-FromFlowcharts-with-Texts-A-Benchmark-Dataset-and-AnApproach">Link</a>]</td>
   </tr>
   <tr>
     <td>CodeContests</td>
     <td>2022</td>
     <td>n@k, Pass@k</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/2203.07814">Paper</a>]</td>
     <td>[<a href="https://github.com/google-deepmind/code_contests">Link</a>]</td>
   </tr>
   <tr>
@@ -1392,28 +1392,28 @@
     <td>LANCE</td>
     <td>2022</td>
     <td>Correct prediction ratio</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/2201.04837">Paper</a>]</td>
     <td>[<a href="https://github.com/antonio-mastropaolo/LANCE">Link</a>]</td>
   </tr>
   <tr>
     <td>LogBench</td>
     <td>2024</td>
     <td>Accuracy, Precision, Recall</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/2307.05950">Paper</a>]</td>
     <td>[<a href="https://github.com/LoggingResearch/LoggingEmpirical">Link</a>]</td>
   </tr>
   <tr>
     <td>SCLoger</td>
     <td>2024</td>
     <td>Accuracy, Precision, Recall, F1, BLEU, and ROUGE</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/2402.12958">Paper</a>]</td>
     <td>[<a href="https://github.com/YichenLi00/SCLogger">Link</a>]</td>
   </tr>
   <tr>
     <td>AL-Bench</td>
     <td>2025</td>
     <td>Position Accuracy, Level Accuracy, Average Level Distance, Message Accuracy, Dynamic Expression Accuracy, Static Text Similarity</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/2502.03160">Paper</a>]</td>
     <td>[<a href="https://github.com/shuaijiumei/logging-benchmark">Link</a>]</td>
   </tr>
 
@@ -1423,14 +1423,14 @@
     <td>Loghub</td>
     <td>2023</td>
     <td>Accuracy</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/2008.06448">Paper</a>]</td>
     <td>[<a href="https://github.com/logpai/loghub">Link</a>]</td>
   </tr>
   <tr>
     <td>Loghub-2.0</td>
     <td>2024</td>
     <td>Accuracy, F1-score</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/2308.10828">Paper</a>]</td>
     <td>[<a href="https://zenodo.org/records/8275861">Link</a>]</td>
   </tr>
 </table>
@@ -1451,49 +1451,49 @@
     <td>CodeReview</td>
     <td>2022</td>
     <td>Exact Match</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/2201.06850">Paper</a>]</td>
     <td>[<a href="https://zenodo.org/records/5387856#.YTDrPZ4zZyo">Link</a>]</td>
   </tr>
   <tr>
     <td>CodeReviewer</td>
     <td>2022</td>
     <td>Exact Match and BLEU</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/2203.09095">Paper</a>]</td>
     <td>[<a href="https://zenodo.org/records/6900648">Link</a>]</td>
   </tr>
   <tr>
     <td>AUGER</td>
     <td>2023</td>
     <td>ROUGE, Perfect Prediction Rate</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/2208.08014">Paper</a>]</td>
     <td>[<a href="https://gitlab.com/ai-for-se-public-data/auger-fse-2022">Link</a>]</td>
   </tr>
   <tr>
     <td>Review-Explaining</td>
     <td>2023</td>
     <td>Explanation type correctness,the semantic meaning correctness</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/2311.09020">Paper</a>]</td>
     <td>[<a href="https://figshare.com/s/135201b8f87ab705448b">Link</a>]</td>
   </tr>
   <tr>
     <td>Code-Review-Assist</td>
     <td>2023</td>
     <td>Precision, Recall, and F1 score</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://ieeexplore.ieee.org/document/10123491">Paper</a>]</td>
     <td>[<a href="https://zenodo.org/records/7533156">Link</a>]</td>
   </tr>
   <tr>
     <td>CodeReview-New</td>
     <td>2024</td>
     <td>Exact Match Trim, Exact Match, BLEU</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/2309.08221">Paper</a>]</td>
     <td>[<a href="https://sites.google.com/view/chatgptcodereview">Link</a>]</td>
   </tr>
   <tr>
     <td>ManualReviewComment</td>
     <td>2025</td>
     <td>Precision, Recall, F1</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/2502.02757">Paper</a>]</td>
     <td>[<a href="https://zenodo.org/records/13150598">Link</a>]</td>
   </tr>
 
@@ -1503,35 +1503,35 @@
     <td>BigCloneBench</td>
     <td>2014</td>
     <td>Precision, Recall, F1</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://ieeexplore.ieee.org/document/7332459">Paper</a>]</td>
     <td>[<a href="https://github.com/clonebench/BigCloneBench">Link</a>]</td>
   </tr>
   <tr>
     <td>POJ-104</td>
     <td>2016</td>
     <td>Precision, Recall, MAP</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/1409.5718">Paper</a>]</td>
     <td>[<a href="https://drive.google.com/file/d/0B2i-vWnOu7MxVlJwQXN6eVNONUU/view?resourcekey=0-Po3kiAifLfCCYnanCBDMHw">Link</a>]</td>
   </tr>
   <tr>
     <td>Company-C/C++</td>
     <td>2023</td>
     <td>MRR, Precision, Recall </td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/2309.02182">Paper</a>]</td>
     <td>[<a href="https://github.com/SFI-Lero/SSCD/tree/main">Link</a>]</td>
   </tr>
   <tr>
     <td>GPTCloneBench</td>
     <td>2023</td>
     <td>Precision, Recall</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/2308.13963">Paper</a>]</td>
     <td>[<a href="https://github.com/srlabUsask/GPTCloneBench">Link</a>]</td>
   </tr>
   <tr>
     <td>Curated CodeNet</td>
     <td>2023</td>
     <td>Precision, Recall</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/2308.01191">Paper</a>]</td>
     <td>[<a href="https://github.com/LLM4CodeClone/LLM4CodeClone">Link</a>]</td>
   </tr>
 
@@ -1541,7 +1541,7 @@
     <td>JavaRef</td>
     <td>2023</td>
     <td>Accuracy, Exact Match, Edit Distance, Character Error Rate</td>
-    <td>[<a href="#">Paper</a>]</td>
+    <td>[<a href="https://arxiv.org/pdf/2305.17708">Paper</a>]</td>
     <td>[<a href="https://drive.google.com/drive/folders/1aw2yiUTXwB3gJrDcFWeDpYvGgJNYjt51">Link</a>]</td>
   </tr>
 </table>
